@@ -6,7 +6,7 @@ def oxford_comma(array)
   string = ""
   index = 0
   while index < array.size do
-    string += index != array.size - 1 ? "#{array[index]}, " : "#{array[index]}"
+    string += index != array.size - 1 ? "#{array[index]}, " : "and #{array[index]}"
     index += 1
   end
   return string
