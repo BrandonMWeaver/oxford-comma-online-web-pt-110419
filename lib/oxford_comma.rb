@@ -3,6 +3,10 @@ def oxford_comma(array)
     return array[0]
   end
   
+  if (array.size == 2)
+    return "#{array[0]} and #{array[1]}"
+  end
+  
   string = ""
   index = 0
   while index < array.size do
